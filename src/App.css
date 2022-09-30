@@ -50,4 +50,7 @@
     height: 0.2rem;
     width: 100%;
   }
+  .product {
+    margin: 0 auto;
+  }
 }
