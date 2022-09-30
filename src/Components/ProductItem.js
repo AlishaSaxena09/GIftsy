@@ -26,7 +26,7 @@ const ProductItem = ({ product, showNewMemberDiscount = false }) => {
         </Link>
 
         <div
-          className={`text-gray-700 absolute bottom-0 ${
+          className={`icons text-gray-700 absolute bottom-0 ${
             showNewMemberDiscount ? "right-4" : "right-3"
           } flex items-center transform translate-y-1/2`}
         >
