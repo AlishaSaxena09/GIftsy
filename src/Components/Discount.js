@@ -6,11 +6,11 @@ import ProductItem from "./ProductItem";
 export default function Discount() {
   const discounts = getDiscounts();
   return (
-    <div className="my-8">
+    <div className="my-8 ">
       <div className="bg-stone-700 text-white py-6">
         <p className="text-4xl uppercase tracking-widest">Discount Debuts</p>
       </div>
-      <div className=" mt-12 mb-8 flex xl:flex-row sm:flex-col xl:border-0 justify-around items-center ">
+      <div className="discount mt-12 mb-8 flex xl:flex-row sm:flex-col xl:border-0 justify-around items-center ">
         {discounts.map((item) => {
           return (
             <ProductItem

@@ -12,7 +12,7 @@ export default function Hero() {
           ></img>
         </Link>
       </div>
-      <div className="absolute xl:top-64 right-32 bg-stone-700 xl:p-8 opacity-80 hero sm:top-40 sm:right-52 sm:p-4 ">
+      <div className="hero absolute xl:top-64 right-32 bg-stone-700 xl:p-8 opacity-80 hero sm:top-40 sm:right-52 sm:p-4 ">
         <h1 className="uppercase xl:text-4xl text-white font-bold tracking-widest ">
           Festive Carnival
         </h1>

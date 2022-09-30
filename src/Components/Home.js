@@ -3,7 +3,7 @@ import Discount from "./Discount";
 import Season from "./Season";
 export default function Home() {
   return (
-    <div>
+    <div className="home">
       <Hero />
       <Discount />
       <Season />
