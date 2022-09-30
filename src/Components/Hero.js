@@ -12,18 +12,18 @@ export default function Hero() {
           ></img>
         </Link>
       </div>
-      <div className="absolute top-64 right-32 bg-stone-700 p-8 opacity-80 ">
-        <h1 className="uppercase text-4xl text-white font-bold tracking-widest ">
+      <div className="absolute xl:top-64 right-32 bg-stone-700 xl:p-8 opacity-80 hero sm:top-40 sm:right-52 sm:p-4 ">
+        <h1 className="uppercase xl:text-4xl text-white font-bold tracking-widest ">
           Festive Carnival
         </h1>
         <div className="border-2 border-white p-4 my-4">
-          <p className="uppercase text-xl text-white font-bold tracking-widest ">
+          <p className="uppercase xl:text-xl text-white font-bold tracking-widest ">
             Upto
           </p>
-          <p className="text-7xl mb-4 mt-2 text-white font-bold tracking-widest ">
+          <p className="xl:text-7xl mb-4 mt-2 text-white font-bold tracking-widest ">
             50 % Off
           </p>
-          <p className="uppercase text-xl text-white font-bold tracking-widest">
+          <p className="uppercase xl:text-xl text-white font-bold tracking-widest">
             on selected products
           </p>
         </div>

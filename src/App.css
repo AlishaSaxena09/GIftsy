@@ -14,10 +14,12 @@
   color: white;
 }
 
-.emerald {
-  background-color: #b6dcc9;
-}
-
 .ballet {
   font-family: "Bona Nova", serif;
+}
+
+@media only screen and (max-width: 450px) {
+  .App {
+    max-width: 450px;
+  }
 }

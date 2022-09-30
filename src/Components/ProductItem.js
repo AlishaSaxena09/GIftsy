@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import { CartContext } from "../context/cartContext";
 import { WishlistContext } from "../context/wishlistContext";
 
@@ -16,11 +17,14 @@ const ProductItem = ({ product, showNewMemberDiscount = false }) => {
       }`}
     >
       <div className="relative w-full">
-        <img
-          alt="product"
-          className="object-cover w-full h-full"
-          src={product.imgUrl}
-        ></img>
+        <Link to="/products">
+          <img
+            alt="product"
+            className="object-cover w-full h-full"
+            src={product.imgUrl}
+          ></img>
+        </Link>
+
         <div
           className={`text-gray-700 absolute bottom-0 ${
             showNewMemberDiscount ? "right-4" : "right-3"
@@ -49,7 +53,9 @@ const ProductItem = ({ product, showNewMemberDiscount = false }) => {
         </div>
       </div>
       <div className="mb-4 mt-8">
-        <h1 className="text-base tracking-wide leading-2">{product.name}</h1>
+        <Link to="/products">
+          <h1 className="text-base tracking-wide leading-2">{product.name}</h1>
+        </Link>
         <div
           className={`my-4 ${
             showNewMemberDiscount ? "text-left" : "text-center"
