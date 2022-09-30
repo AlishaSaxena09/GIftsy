@@ -26,15 +26,7 @@
     max-width: 450px;
   }
   .hero {
-    margin-top: 9.5rem;
-    top: 0;
-    right: 10px;
-    font-size: 0.5rem;
-    width: 20rem;
-    opacity: 50%;
-  }
-  .hero div {
-    padding: 0;
+    display: none;
   }
   .discount {
     display: flex;
